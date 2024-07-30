@@ -3,17 +3,10 @@ using Dapper;
 
 namespace DapperExercise2;
 
-public class DapperCategoryRepository : ICategoryRepository
+public class DapperCategoryRepository(IDbConnection connection) : ICategoryRepository
 {
-    private readonly IDbConnection _connection;
-
-    public DapperCategoryRepository(IDbConnection connection)
-    {
-        _connection = connection;
-    }
-    
     public IEnumerable<Category> GetAllCategories()
     {
-        return _connection.Query<Category>("SELECT * FROM categories;");
+        return connection.Query<Category>("SELECT * FROM categories;");
     }
 }

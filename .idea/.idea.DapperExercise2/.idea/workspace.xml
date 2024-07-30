@@ -8,21 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="249c3596-806c-456a-a558-3ca3d95aa6e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DapperExercise2.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DapperExercise2/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DapperExercise2/DapperCategoryRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DapperExercise2/DapperExercise2.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DapperExercise2/DapperProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DapperExercise2/ICategoryRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DapperExercise2/IProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DapperExercise2/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DapperExercise2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DapperExercise2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DapperExercise2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DapperExercise2/DapperCategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DapperExercise2/DapperCategoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DapperExercise2/DapperProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DapperExercise2/DapperProductRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,11 +42,13 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
-      "sqlserver.localdb"
+      "sqlserver.localdb",
+      "mysql"
     ],
     "rider.external.source.directories": [
       "/Users/kellyallen/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
@@ -87,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722287853513</updated>
-      <workItem from="1722287854803" duration="10150000" />
+      <workItem from="1722287854803" duration="14085000" />
     </task>
     <servers />
   </component>
@@ -97,5 +95,9 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
